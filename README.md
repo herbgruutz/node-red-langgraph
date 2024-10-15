@@ -44,9 +44,10 @@ The project includes a Node-RED node:
 
 To develop the project locally using Devpod, follow these steps:
 
-1. Run the command `ssh -L 3000:localhost:3000 node-red-langgraph@devpod` to expose port 3000 from the Devpod environment to your local machine.
-2. In the Devpod environment, navigate to the project root directory and run `node-red -p 3000` to start Node-RED on port 3000.
-3. Access Node-RED in your local browser by navigating to `http://localhost:3000`.
+1. Run the command `devpod up . --ide=none` from the root of the project to start the Devpod environment.
+2. Once the Devpod environment is running, run the command `ssh -L 3000:localhost:3000 node-red-langgraph@devpod` to expose port 3000 from the Devpod environment to your local machine.
+3. In the Devpod environment, navigate to the project root directory and run `node-red -p 3000` to start Node-RED on port 3000.
+4. Access Node-RED in your local browser by navigating to `http://localhost:3000`.
 
 ## Contributing
 
