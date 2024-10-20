@@ -30,14 +30,11 @@ The project includes a Node-RED node:
 * `node-red-langchain-agent`: This node is a language chain agent.
 
 ## Next Steps
-
 - [ ] Scrape the Node Red and LangChain documentation
-- [ ] Create a LangFlow using that to help me code
-- [ ] Create a node red flow that can replicate the LangFlow RAG chatbot flow
-  - [ ] Create necessary custom nodes
-  - [ ] Unit tests
-  - [ ] Documentation
-  - [ ] HTML
+- [ ] Create a node red flow that can replicate a LangGraph RAG flow
+  - [ ] Create a new repo within this repo
+    - [ ] we will create simple nodes with simple html and unit tests and gradually build them up with correspoding unit tests
+  - [ ] Keep up good documentation
 
 ## Contributing
 
